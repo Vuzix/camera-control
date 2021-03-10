@@ -1,0 +1,2 @@
+install:
+mvn install:install-file -Dfile=camera-control.aar -Dsources=camera-control-sources.jar -Djavadoc=camera-control-javadoc.jar -DgroupId=com.vuzix -DartifactId=camera-control -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
